@@ -1,0 +1,5 @@
+primeiroTermo = int(input("DIGITE O PRIMEIRO TERMO DA PA "))
+razao = int(input("DIGITE A RAZAO DA PA "))
+num = int(input("DIGITE A POSIÇÃO DO NUMERO "))
+termo = primeiroTermo + ((num - 1) * razao)
+print("O TERMO DESEJADO É =", termo)

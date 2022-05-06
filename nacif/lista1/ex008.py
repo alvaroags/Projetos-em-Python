@@ -1,0 +1,3 @@
+C = float(input("DIGITE A TEMPERATURA EM CELSIUS "))
+F = (C*1.8)+32
+print("A TEMPERATURA EM FAHRENHEIT É = ", F)

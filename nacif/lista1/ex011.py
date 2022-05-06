@@ -1,0 +1,5 @@
+primeiroTermo = int(input("DIGITE O PRIMEIRO TERMO DA PG "))
+razao = int(input("DIGITE A RAZÃO "))
+numero = int(input("DIGITE A POSIÇÃO DO NÚMERO DESEJADO "))
+termo = (primeiroTermo * (razao**(numero-1)))
+print("O TERMO ESCOLHIDO É =", termo)
