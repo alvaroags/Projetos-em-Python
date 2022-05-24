@@ -1,0 +1,5 @@
+k = int(input('primeiro termo '))
+r = int(input('razao '))
+n = int(input('numero de termos '))
+num = k + ((n-1) * r)
+print(num)

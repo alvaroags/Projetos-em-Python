@@ -1,0 +1,5 @@
+valorDeposito = float(input('VALOR DO DEPOSITO '))
+taxa = float(input('PERCENTUAL DA TAXA DE JUROS '))
+tempo = int(input('TEMPO EM MESES '))
+print(f'VALOR DO JUROS = {(valorDeposito * (taxa / 100) * tempo)}')
+print(f'VALOR DO MONTANTE = {valorDeposito + (valorDeposito * (taxa / 100) * tempo)}')

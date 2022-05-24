@@ -1,0 +1,5 @@
+salario = float(input())
+qtWatts = float(input())
+print(f'VALOR POR CADA QUILOWATT {salario/700:.2f}')
+print(f'VALOR A SER PAGO {(salario/700)*qtWatts:.2f}')
+print(f'VALOR PAGO COM DESCONTO {((salario/700) *qtWatts) * 0.9:.2f}')

@@ -1,0 +1,5 @@
+valorAula = float(input('VALOR DA AULA '))
+aulasMes = int(input('AULAS NO MES '))
+inss = float(input('PERCENTUAL DO INSS '))
+salario = (valorAula * aulasMes) * (1 - (inss/100))
+print(f'NOVO SALARIO = {salario:.2f}')
