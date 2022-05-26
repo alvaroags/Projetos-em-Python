@@ -1,4 +1,7 @@
 A,G,RA,RG = map(float,input().split())
-litroA = A/10
-litroG = G/10
-
+litroA = 10/A
+litroG = 10/G
+if(litroA * RA) > (litroG *RG):
+    print('A')
+else:
+    print('G')
