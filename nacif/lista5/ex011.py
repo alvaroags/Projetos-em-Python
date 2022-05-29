@@ -4,6 +4,6 @@ if((a and b) > 0):
     if(b>a):
         print(a)
     else:
-        while(b>0):
-            a-=b
+        while(a>=b):
+            a = a - b
         print(a)
